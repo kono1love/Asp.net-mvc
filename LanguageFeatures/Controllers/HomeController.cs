@@ -135,7 +135,7 @@ namespace LanguageFeatures.Controllers
             StringBuilder result = new StringBuilder();
             foreach (var p in foundProducts)
             {
-                result.AppendFormat("Price: {0} ", p.Price);
+                result.AppendFormat("Price: {0:c} ", p.Price);
             }
 
             return View("Result", (object)result.ToString());
