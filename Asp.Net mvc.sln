@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Razor", "Razor\Razor.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools", "EssentialTools\EssentialTools.csproj", "{673E6DC3-AFC7-486E-A251-698928A9445B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EssentialTools.Tests", "EssentialTools.Tests\EssentialTools.Tests.csproj", "{2F2F3D40-A220-44CC-93BA-7E25B5E3B3A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{673E6DC3-AFC7-486E-A251-698928A9445B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673E6DC3-AFC7-486E-A251-698928A9445B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673E6DC3-AFC7-486E-A251-698928A9445B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F2F3D40-A220-44CC-93BA-7E25B5E3B3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F2F3D40-A220-44CC-93BA-7E25B5E3B3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F2F3D40-A220-44CC-93BA-7E25B5E3B3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F2F3D40-A220-44CC-93BA-7E25B5E3B3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
